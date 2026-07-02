@@ -3,10 +3,11 @@
 // @namespace    http://tampermonkey.net/
 // @version      4.3
 // @description  自动填入参考价，判断是否低于成本价，低于则翻页跳过，全部高于则确认报名（确认后弹窗回到第1页，自动继续遍历未提交的页）
-// @author       QoderWork
-// @match        https://agentseller.temu.com/*
+// @author       zxwljs
+// @match        https://agentseller.temu.com/activity/*
 // @grant        none
 // @run-at       document-idle
+// @license MIT
 // ==/UserScript==
 
 (function () {
